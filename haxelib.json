@@ -1,0 +1,13 @@
+{
+  "name": "NetworkUtils",
+  "url": "",
+  "license": "MIT",
+  "tags": [],
+  "description": "",
+  "version": "1.0.0",
+  "releasenote": "Haxe/Openfl extension to access system network information (Mac)",
+  "contributors": ["rat-moonshine"],
+  "dependencies": {
+
+  }
+}
