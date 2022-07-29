@@ -25,9 +25,9 @@ Clone the NetworkUtils repository:
 
 Tell haxelib where your development copy of NetworkUtils is installed:
 
-    haxelib dev networkutils $pathToDownloadDirectory
+    haxelib dev networkutils path/to/download/directory
 
-You can build the binaries using "lime rebuild"
+You can build the binaries using:
 
     lime rebuild networkutils mac
 
