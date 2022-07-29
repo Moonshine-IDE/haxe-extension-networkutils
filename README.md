@@ -16,6 +16,22 @@ To add it to a Lime or OpenFL project, add this to your project file:
 
 Currently, the extension avails for Mac only.
 
+### 1. Network Interfaces
+
+Get available network interfaces as JSON in `name:address` pair:
+
+```
+// import project
+import extension.networkutils.NetworkUtils;
+
+// receive as JSON string and parse
+var json = Json.parse(
+	NetworkUtils.getInterfacesJSON()
+);
+
+// trace(json)
+{ data => [{ address => 127.0.0.1, name => lo0 },{ address => 192.168.0.6, name => en0 }] }
+```
 
 ## Development Builds
 
